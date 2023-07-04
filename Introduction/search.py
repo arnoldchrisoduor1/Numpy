@@ -26,3 +26,11 @@ print("Where 7 should be inserted starting from the right.")
 print(arr)
 x = np.searchsorted(arr, 7, side='right')
 print(x)
+
+#Searchsort fincing where multiple indeces should be inserted.
+print()
+print("Where to insert multiple indexes.")
+print(arr)
+x = np.searchsorted(arr, [2,7,12])
+print(x)
+print()
